@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 3.8vw;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    background: linear-gradient(90deg, #000D06, #02734A);
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 3.8vw;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.61);
+}
+
+header > h1 {
+    font-size: 2.6em;
+}
+
+header > h2 {
+    font-size: 1.8em;
+}
+
+main > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-right: 1.4vw;
+    padding-bottom: 2vw;
+    padding-left: 1.4vw;
+    text-indent: 20px;
+}
+
+.loud1 {
+    color: #014023;
+}
+
+div.loud {
+    border: black solid;
+    background-image: url(..//fotos/pancsloud.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+    margin-bottom: 20px;
+}
+
+div.loud > p {
+    display: inline-block;
+    color: white;
+    background-color: #02734a48;
+    text-indent: 0px;
+    margin-left: 2px;
+    padding-left: 2px;
+    font-size: 1.2em;
+        
+}
+
+.feat {
+    text-indent: 0px;
+}
+
+.sen1 {
+    color: #8C031C;
+}
+
+div.sen {
+    background-image: url(..//fotos/pancssen.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+    margin-bottom: 20px;
+}
+
+div.sen > p {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        background-color: #f0041763;
+        text-indent: 0px;
+        margin-left: 2px;
+        padding-left: 2px;
+        font-size: 1.2em;
+        
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(90deg, #000D06, #02734A);
+    color: white;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+

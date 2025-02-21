@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 3.8vw;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    background: linear-gradient(90deg, #180326, #6B12A6);
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 3.8vw;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.61);
+}
+
+header > h1 {
+    font-size: 2.6em;
+}
+
+header > h2 {
+    font-size: 1.8em;
+}
+
+main > h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-right: 1.4vw;
+    padding-bottom: 2vw;
+    padding-left: 1.4vw;
+    text-indent: 20px;
+}
+
+.mdt1 {
+    color: #3e0863;
+}
+
+div.mdt {
+    background-image: url(..//fotos/matue.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+}
+
+div.mdt > p {
+        display: inline-block;
+        color: white;
+        background-color: #6b12a634;
+        text-indent: 0px;
+        margin-left: 2px;
+        padding-left: 2px;
+        font-size: 1.2em;
+        
+}
+
+.feat {
+    text-indent: 0px;
+}
+
+.new1 {
+    color: #18CAEA;
+}
+
+div.new {
+    background-image: url(..//fotos/333.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+}
+
+div.new > p {
+        display: inline-block;
+        color: rgb(43, 43, 43);
+        background-color: #18cbea4d;
+        text-indent: 0px;
+        margin-left: 2px;
+        padding-left: 2px;
+        font-size: 1.2em;
+        
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(90deg, #180326, #6B12A6);
+    color: white;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    background-color: #611F73;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.966);
+}
+
+div.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.matue {
+    background: url(matue.png) center/cover ;
+    width: 200px;
+    height: 200px;
+}
+
+div.neymar {
+    background: url(neymar.png) center/cover;
+    width: 200px;
+    height: 200px;
+}
+
+div.pancada {
+    background: url(pancada.png) center/cover;
+    width: 200px;
+    height: 200px;
+}
+
+div.facada {
+    background: url(facada1.png) center/cover;
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    transition: transform 0.6s;
+}
+
+a:hover {
+    
+    transform: scale(1.1);
+}
